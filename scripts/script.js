@@ -1,3 +1,3 @@
 function other() {
-  href='cadastros.html';
+  location.href="cadastros.html";
 }
