@@ -19,10 +19,10 @@
     <h1 style="margin-top:70px;">Cadastro</h1>
   </header>
   <main>
-      <form action="" method="get" accept-charset="utf-8" class="formulario-cadastros">
+      <form action="" method="get" accept-charset="utf-8" name="formulario-cadastro" id="formulario-cadastro" class="formulario-cadastro">
     <label for="">E-mail:</label>
     <br>
-    <input type="email" name="" id="" value="" placeholder="exemplo@gmail.com"/>
+    <input type="email" name="email-cadastro" id="email-cadastro" class="email-cadastro" value="" placeholder="exemplo@gmail.com"/>
     <br/>
     <label for="">Nome:</label>
     <br>
@@ -39,7 +39,7 @@
     <br>
     <input type="password" name="c_senha-cadastro" id="c_senha-cadastro" class="c_senha-cadastro" placeholder="sua senha" />
     <br>
-    <input type="button" name="btn-cadastro" id="btn-cadastro" value="Cadastrar" class="btn-cadastro"/>
+    <input type="button" name="btn-cadastro" id="btn-cadastro" value="Cadastrar" class="btn-cadastro" onclick="cadastro()"/>
   </form>
   </main>
 </body>
