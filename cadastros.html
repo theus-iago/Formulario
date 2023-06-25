@@ -10,8 +10,37 @@
 </head>
 <body>
   <header>
-    <h1>Cadastro</h1>
-    <nav></nav>
+    <h1>Sistema de Ações</h1>
+    <nav>
+      <a href="index.html#header">Home</a>
+      <a href="cadastros.html">Cadastros</a>
+      <a href="#">Exit</a>
+    </nav>
+    <h1 style="margin-top:70px;">Cadastro</h1>
   </header>
+  <main>
+      <form action="" method="get" accept-charset="utf-8" class="formulario-cadastros">
+    <label for="">E-mail:</label>
+    <br>
+    <input type="email" name="" id="" value="" placeholder="exemplo@gmail.com"/>
+    <br/>
+    <label for="">Nome:</label>
+    <br>
+    <input type="text" name="nome-cadastro" id="nome-cadastro" class="nome-cadastro" placeholder="seu nome" />
+    <br>
+    <label for="">Data de Nascimento:</label>
+    <input type="date" name="data_de_nsc-cadastro" id="data_de_nsc-cadastro" class="data_de_nsc-cadastro" />
+    <br>
+    <label for="">Crie uma Senha:</label>
+    <br>
+    <input type="password" name="senha-cadastro" id="senha-cadastro" class="senha-cadastro" value="" placeholder="mínimo: 8 caracteres"/>
+    <br>
+    <label for="">Confirme a Senha:</label>
+    <br>
+    <input type="password" name="c_senha-cadastro" id="c_senha-cadastro" class="c_senha-cadastro" placeholder="sua senha" />
+    <br>
+    <input type="button" name="btn-cadastro" id="btn-cadastro" value="Cadastrar" class="btn-cadastro"/>
+  </form>
+  </main>
 </body>
 </html>
