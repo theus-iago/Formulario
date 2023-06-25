@@ -1,1 +1,3 @@
-alert('js linkado à página!');
+function other() {
+  document.href='cadastros.html';
+}
