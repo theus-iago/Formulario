@@ -12,16 +12,11 @@
   <header>
     <h1>Sistema de Ações</h1>
     <input type="checkbox" id="checkbox-menu">
-    <label for="checkbox-menu" id="label">
+    <label for="checkbox-menu" id="label" onclick="menu()">
       <span></span>
       <span></span>
       <span></span>
     </label>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="login.html">Login</a>
-      <a href="cadastros.html">Cadastrar-se</a>
-    </nav>
     <h1 style="margin-top:70px;">Cadastro</h1>
   </header>
   <main>
@@ -48,6 +43,11 @@
     <input type="submit" name="btn-cadastro" id="btn-cadastro" value="Cadastrar" class="btn-cadastro" onclick="cadastro()"/>
   </form>
   </main>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="login.html">Login</a>
+      <a href="cadastros.html">Cadastrar-se</a>
+    </nav>
   <div class="registros">
     <form action="">
     <h1>Registros:</h1>
