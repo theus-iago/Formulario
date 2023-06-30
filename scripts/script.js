@@ -14,11 +14,10 @@ registrados.innerHTML=`email: ${email.value}<br>nome: ${nome.value}<br>data de n
 }
 function menu() {
   if(n==0) {
-  nav.style.opacity=100;
+  nav.style.cssText="transition:left 0.80s; left:80%;";
   n++
   }else{
-    nav.style.opacity=0;
+    nav.style.cssText="transition:left 0.80s; left:180%;";
     n--
   }
-    
   }
