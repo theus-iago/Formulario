@@ -94,8 +94,8 @@ nav {
   width:125px;
   position:absolute;
   top:8%;
-  left:80%;
-  transform:translate(-80%, -8%);
+  left:180%;
+  transform:translate(-180%, -8%);
   transition:0.25 ease-in-out;
 }
 
