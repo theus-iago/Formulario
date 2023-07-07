@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" href="images/hack-icon-hackers-invader-symbol-pessoa-que-nao-autorizou-o-acesso-aos-dados-em-um-sistema_883533-648.jpg" type="image/x-icon" />
+  <title>Sistema de Cadastros</title>
+  <link rel="stylesheet" href="estilos/style.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="estilos/fontes.css" type="text/css" media="all" />
+  <script src="scripts/script.js" type="text/javascript" charset="utf-8" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Sistema de Ações</h1>
+    <input type="checkbox" id="checkbox-menu">
+    <label for="checkbox-menu" id="label" onclick="menu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+    <h1 style="margin-top:70px;">Cadastro</h1>
+  </header>
+  <main>
+      <form action="" method="get" accept-charset="utf-8" name="formulario-cadastro" id="formulario-cadastro" class="formulario-cadastro">
+    <label for="email">E-mail:</label>
+    <br>
+    <input type="email" name="email-cadastro" id="email-cadastro" class="email-cadastro" value="" placeholder="exemplo@gmail.com"/>
+    <br/>
+    <label for="nome">Nome:</label>
+    <br>
+    <input type="text" name="nome-cadastro" id="nome-cadastro" class="nome-cadastro" placeholder="seu nome" />
+    <br>
+    <label for="data_de_nsc-cadastro">Data de Nascimento:</label>
+    <input type="date" name="data_de_nsc-cadastro" id="data_de_nsc-cadastro" class="data_de_nsc-cadastro" />
+    <br>
+    <label for="senha-cadastro">Crie uma Senha:</label>
+    <br>
+    <input type="password" name="senha-cadastro" id="senha-cadastro" class="senha-cadastro" value="" placeholder="mínimo: 8 caracteres"/>
+    <br>
+    <label for="c_senha-cadastro">Confirme a Senha:</label>
+    <br>
+    <input type="password" name="c_senha-cadastro" id="c_senha-cadastro" class="c_senha-cadastro" placeholder="sua senha" />
+    <br>
+    <input type="submit" name="btn-cadastro" id="btn-cadastro" value="Cadastrar" class="btn-cadastro" onclick="cadastro()"/>
+  </form>
+  </main>
+  <div class="box">
+         <nav>
+      <a href="index.html">Home</a>
+      <a href="login.html">Login</a>
+      <a href="cadastros.html">Cadastrar-se</a>
+    </nav>
+  </div>
+  <div class="registros">
+    <form action="">
+    <h1>Registros:</h1>
+    <br>
+    <h2 class="registrados"></h2>
+    </form>
+  </div>
+</body>
+</html>
