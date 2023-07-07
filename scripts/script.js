@@ -1,4 +1,4 @@
-const header= document.getElementsByTagName("header")[0];
+/*const header= document.getElementsByTagName("header")[0];
 const nav= document.getElementsByTagName('nav')[0];
 const checkbox= document.getElementById('checkbox');
 let n=0;
@@ -20,4 +20,4 @@ function menu() {
     nav.style.cssText="transition:left 0.80s; left:180%;";
     n--
   }
-  }
+  }*/
