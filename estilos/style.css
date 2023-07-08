@@ -57,7 +57,12 @@
       /* height:220px;
       width:350px; */
       display:inline-block;
-      border:1px solid #389fff;
+      background-image:url('../images/abstract-pattern-design_1053-523.jpg');
+      background-size:cover;
+      background-position:center center;
+      background-attachment:fixed;
+      box-shadow:inset 2px 2px 2px rgb(0,0,0,0.514);
+      border:1.5px outset rgb(65,65,65);
       border-radius:30px;
       margin:5px;
       text-align:center;
@@ -77,7 +82,7 @@
       text-align:start;
     }
     .btn {
-      background-color:#389fff;
+      background-color:rgba(0,0,0,0);
       color:white;
       border:none;
       border-radius:4px;
