@@ -1,23 +1,6 @@
-/*const header= document.getElementsByTagName("header")[0];
-const nav= document.getElementsByTagName('nav')[0];
-const checkbox= document.getElementById('checkbox');
-let n=0;
-const main= document.getElementsByTagName("main")[0];
-const form= document.getElementById("formulario-cadastro");
-const email= document.getElementById("email-cadastro");
-const nome= document.getElementById("nome-cadastro");
-const data_de_nsc= document.getElementById("data_de_nsc-cadastro");
-const senha= document.getElementById("senha-cadastro");
-const registrados= document.getElementsByClassName("registrados")[0];
-function cadastro() {
-registrados.innerHTML=`email: ${email.value}<br>nome: ${nome.value}<br>data de nascimento: ${data_de_nsc.value}<br> senha: ${senha.value}`;
-}
-function menu() {
-  if(n==0) {
-  nav.style.cssText="transition:left 0.80s; left:80%;";
-  n++
-  }else{
-    nav.style.cssText="transition:left 0.80s; left:180%;";
-    n--
-  }
-  }*/
+//Componentes do Cadastro:
+const email = document.querySelector(".email-cadastro");
+const nome = document.querySelector(".nome-cadastro");
+const senha = document.querySelector(".password-cadastro");
+const c_senha = document.querySelector(".c-password");
+const btn-cadastro = document.querySelector("#btn-cadastro");
