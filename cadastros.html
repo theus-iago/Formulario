@@ -12,23 +12,18 @@
 <body>
   <div class="container">
     <h3>Cadastro</h3>
-    <label for="email" style="margin-top:20px;">email:</label>
-    <br>
-    <input type="email" name="email" id="email" style="margin-bottom:15px;"/>
+    <div class="label"><label for="email-cadastro">email:</label></div> 
+    <input type="email" name="email-cadastro" id="email-cadastro" class="email-cadastro"/>
+   <div class="label"><label for="nome-cadastro">nome do usuário:</label></div> 
+    <input type="text" name="nome-cadastro" id="nome-cadastro" class="nome-cadastro"/>
     <br/>
-    <label for="nome" style="margin-top:20px;">nome do usuário:</label>
+    <div class="label"><label for="password-cadastro">crie uma senha:</label></div> 
+    <input type="password" name="password-cadastro" id="password-cadastro" class="password-cadastro"/>
     <br>
-    <input type="email" name="email" id="email" style="margin-bottom:15px;"/>
-    <br/>
-    <label for="password" style="margin-top:5px">crie uma senha:</label>
+    <div class="label"><label for="c-password">confirme a sua senha:</label></div> 
+    <input type="password" name="c-password" id="c-password" style="margin-bottom:15px"/>
     <br>
-    <input type="password" name="password" id="password" style="margin-bottom:20px;"/>
-    <br>
-    <label for="c-password" style="margin-top:5px">confirme a sua senha:</label>
-    <br>
-    <input type="password" name="c-password" id="c-password" style="margin-bottom:20px;"/>
-    <br>
-    <button class="btn" type="submit">cadastrar</button>
+   <div id="btn"><button id="btn-cadastro" class="btn" type="submit">cadastrar</button></div>
   </div>
 </body>
 </html>
