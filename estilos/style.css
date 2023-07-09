@@ -80,7 +80,8 @@
       max-width:300px;
     }
     #container-cadastro {
-      
+      max-height:393px;
+      max-width:287px;
     }
     .label {
       margin-top:15px;
