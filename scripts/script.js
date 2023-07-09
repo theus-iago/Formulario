@@ -1,6 +1,9 @@
 function go_to_page_cadastros() {
   location.href="cadastros.html";
 }
+function go_to_page_login() {
+  location.href="index.html";
+}
 function cadastro() {
 //Componentes do Cadastro:
 const email_cadastro = document.querySelector(".email-cadastro");
