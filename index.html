@@ -10,7 +10,8 @@
   <script src="scripts/script.js" type="text/javascript" charset="utf-8"></script>
 </head>
 <body>
-  <div class="container" id="container-login">
+  <div class="box">
+    <div class="container" id="container-login">
     <h3>Login</h3>
     <div class="label"><label for="email-login">email:</label></div> 
     <input type="email" name="email-login" id="email-login" class="email-login"/>
@@ -18,7 +19,23 @@
     <div class="label"><label for="password-login">senha:</label></div> 
     <input type="password" name="password-login" id="password-login" class="password-login" style="margin-bottom:20px;"/>
      <button id="btn-login2" class="btn" onclick="login()">Entrar</button>
-    <button id="btn-login1" class="btn" onclick="go_to_page_cadastros()">Não é cadastrado?</button>
   </div>
+    <div class="container" id="container-cadastro">
+    <h3>Cadastro</h3>
+    <div class="label"><label for="email-cadastro">email:</label></div> 
+    <input type="email" name="email-cadastro" id="email-cadastro" class="email-cadastro"/>
+   <div class="label"><label for="nome-cadastro">nome do usuário:</label></div> 
+    <input type="text" name="nome-cadastro" id="nome-cadastro" class="nome-cadastro"/>
+    <br/>
+    <div class="label"><label for="password-cadastro">crie uma senha:</label></div> 
+    <input type="password" name="password-cadastro" id="password-cadastro" class="password-cadastro"/>
+    <br>
+    <div class="label"><label for="c-password">confirme a sua senha:</label></div> 
+    <input type="password" name="c-password" id="c-password" style="margin-bottom:15px"/>
+    <br>
+   <div id="btn"><button id="btn-cadastro" class="btn" onclick="cadastro()">cadastrar</button></div>
+  </div>
+  </div> 
+  <button class="btn-go" onclick="go_to_page_cadastros()">➪</button>
 </body>
 </html>
