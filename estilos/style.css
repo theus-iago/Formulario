@@ -52,6 +52,7 @@
       font-family:Arial, Helvetica, sans-serif;
     }
     .box {
+      background-image:url('../images/abstract-pattern-design_1053-523.jpg');
       border-radius:25px;
       overflow:hidden;
       position:absolute;
@@ -67,7 +68,7 @@
       /* height:220px;
       width:350px; */
       display:inline-block;
-      background-image:url('../images/abstract-pattern-design_1053-523.jpg');
+      background-color:gray;
       background-size:cover;
       background-position:center center;
       background-attachment:fixed;
