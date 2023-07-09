@@ -53,6 +53,7 @@
     }
     .box {
       background-image:url('../images/abstract-pattern-design_1053-523.jpg');
+      border:2px outset gray;
       border-radius:25px;
       overflow:hidden;
       position:absolute;
@@ -61,7 +62,6 @@
       transform:translate(-50%, -60%);
       height:480px;
       width:350px;
-      background-color:red;
     }
     .container {
       padding:22px;
@@ -124,6 +124,21 @@
       top:95%;
       left:80%;
       transform:translate(-80%, -95%);
+    }
+    .btn-back {
+      background-color:black;
+      color:white;
+      height:50px;
+      width:50px;
+      border:none;
+      border-radius:16px;
+      font-size:18pt;
+      padding:;
+      position:absolute;
+      top:89%;
+      left:15%;
+      transform:translate(-15%,-89%);
+      transform:rotate(180deg);
     }
     #btn-login1 {
       margin-top:15px;
