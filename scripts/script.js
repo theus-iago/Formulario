@@ -1,5 +1,5 @@
 function go_to_page_cadastros() {
-  location.href="cadastros.hmtl";
+  location.href="cadastros.html";
 }
 function cadastro() {
 //Componentes do Cadastro:
