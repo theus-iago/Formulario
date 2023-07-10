@@ -11,7 +11,7 @@
 </head>
 <body>
   <div class="box">
-    <div class="container" id="container-login">
+    <form class="container" id="container-login">
     <h3>Login</h3>
     <div class="label"><label for="email-login">email:</label></div> 
     <input type="email" name="email-login" id="email-login" class="email-login"/>
@@ -19,8 +19,8 @@
     <div class="label"><label for="password-login">senha:</label></div> 
     <input type="password" name="password-login" id="password-login" class="password-login" style="margin-bottom:20px;"/>
      <button id="btn-login2" class="btn" onclick="login()">Entrar</button>
-  </div>
-    <div class="container" id="container-cadastro">
+  </form>
+    <form class="container" id="container-cadastro">
     <h3>Cadastro</h3>
     <div class="label"><label for="email-cadastro">email:</label></div> 
     <input type="email" name="email-cadastro" id="email-cadastro" class="email-cadastro"/>
@@ -34,9 +34,9 @@
     <input type="password" name="c-password" id="c-password" style="margin-bottom:15px"/>
     <br>
    <div id="btn"><button id="btn-cadastro" class="btn" onclick="cadastro()">cadastrar</button></div>
-  </div>
+  </form>
   </div> 
-  <button class="btn-go">➪</button>
-  <button class="btn-back">➪</button>
+  <button class="btn-go" onclick="pass()">➪</button>
+  <button class="btn-back" onclick="back()">➪</button>
 </body>
 </html>
