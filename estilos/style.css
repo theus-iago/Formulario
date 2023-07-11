@@ -65,6 +65,19 @@
       color:white;
       text-align:center;
     }
+    main {
+      height:400px;
+      position:relative;
+      top:800px;
+      font-size:1.2em;
+      padding:16px;
+      background-image:linear-gradient(-160deg, rgba(20,20,20,0.998), black);
+      color:white;
+    }
+    #footer {
+      padding-top:100px;
+      text-align:end;
+    }
     .box {
       background-image:url('../images/abstract-pattern-design_1053-523.jpg');
       border:2px outset gray;
