@@ -21,13 +21,13 @@ alert(`Bem-Vindo ao sistema! ${email_login.value}`);
 function pass() {
   const container = document.querySelector("#container-login");
   const container2 = document.querySelector("#container-cadastro");
-  container.style.cssText='transition:left 1.2s; top:20%; left:-50%;';
-  container2.style.cssText='transition:tranform, left 1.2s, 1.2s; top:20%; left:50%; transform:translate(-50%, -20%);';
+  container.style.cssText='transition:left 1.2s; top:37%; left:-50%;';
+  container2.style.cssText='transition:tranform, left 1.2s, 1.2s; top-37%; left:50%; transform:translate(-50%, -37%);';
 }
 function back() {
   const container = document.querySelector("#container-login");
   const container2 = document.querySelector("#container-cadastro");
-  container.style.cssText='transition:left 1.2s; top:20%; left:50%;';
-  container2.style.cssText='transition:transform, left 1.2s, 1.2s; top:20%; left:50%; transform:translate(80%, -20%);';
+  container.style.cssText='transition:left 1.2s; top:37%; left:50%;';
+  container2.style.cssText='transition:transform, left 1.2s, 1.2s; top:37%; left:50%; transform:translate(80%, -37%);';
 }
 
