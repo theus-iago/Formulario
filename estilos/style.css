@@ -72,7 +72,7 @@
       text-align:end;
     }
     .box {
-      border:1px solid black;
+      border:none;
       border-radius:25px;
       overflow:hidden;
       position:absolute;
