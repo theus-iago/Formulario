@@ -76,11 +76,11 @@
       border-radius:25px;
       overflow:hidden;
       position:absolute;
-      top:60%;
+      top:30%;
       left:50%;
-      transform:translate(-50%, -60%);
-      height:90%;
-      width:95vw;
+      transform:translate(-50%, -30%);
+      height:180vh;
+      width:84vw;
     }
     .container {
       padding:28px;
@@ -103,16 +103,16 @@
       top:20%;
       left:50%;
       transform:translate(-50%, -20%);
-      max-height:70vh;
-      max-width:180vw;
+      max-height:280vh;
+      max-width:120vw;
     }
     #container-cadastro {
       position:absolute;
       top:20%;
       left:50%;
       transform:translate(80%, -20%);
-      max-height:70vh;
-      max-width:180vw; 
+      max-height:280vh;
+      max-width:120vw; 
     } 
     .label {
       font-family:var(--font2);
