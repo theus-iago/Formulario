@@ -5,10 +5,7 @@ const nome = document.querySelector(".nome-cadastro");
 const senha_cadastro = document.querySelector(".password-cadastro");
 const c_senha = document.querySelector(".c-password");
 const btn_cadastro = document.querySelector("#btn-cadastro");
-const registros_c = document.getElementById("registros");
 alert(`${nome.value} você foi Cadastrado no Sistema!`);
-registrados = document.createTextNode(`email:${email_cadastro.value}`);
-registros_c.appendChild(registrados);
 }
 function login() {
 //Componentes do Login:
