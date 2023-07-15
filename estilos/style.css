@@ -72,7 +72,7 @@
       text-align:end;
     }
     .box {
-      border:none;
+      border:1px solid black;
       border-radius:25px;
       overflow:hidden;
       position:absolute;
@@ -80,7 +80,7 @@
       left:50%;
       transform:translate(-50%, -60%);
       height:90%;
-      width:80vw;
+      width:95vw;
     }
     .container {
       padding:28px;
