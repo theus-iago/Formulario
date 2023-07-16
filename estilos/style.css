@@ -55,6 +55,9 @@
     }
     body {
       background-color:rgb(234,234,234);
+      background-image:url('../images/IMG-20230716-WA0000.jpg');
+      backdrop-filter:blur(px);
+      background-size:cover;
       font-family:var(--fonte1);
     }
     .box {
@@ -78,7 +81,6 @@
       text-align:center;
       font-family:var(--font2);
       background-color:#ffffff;
-      background-image:url('../images/IMG-20230716-WA0000.jpg');
       color:black;
     }
     .container >h3 {
