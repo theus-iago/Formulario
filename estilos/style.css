@@ -43,7 +43,7 @@
 }*/
 @charset "UTF-8";
   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Ysabeau+Office:wght@200&display=swap');
- @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap');
+   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap');
 :root {
   --font1:'Ysabeau Office', sans-serif;
   --font2:'Poppins', sans-serif;
@@ -78,6 +78,7 @@
       text-align:center;
       font-family:var(--font2);
       background-color:#ffffff;
+      background-image:url('images/IMG-20230716-WA0000.jpg');
       color:black;
     }
     .container >h3 {
