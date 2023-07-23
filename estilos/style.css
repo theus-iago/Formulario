@@ -71,14 +71,16 @@
       left:50%;
       transform:translate(-50%, -30%);
       height:100vh;
-      width:84vw;
+      width:95vw;
     }
     .container {
       padding:28px;
       display:inline-block;
       height:80vh; 
       width:140vw;  
-      box-shadow:inset 1px 2px 2px rgb(0,0,0,0.514);
+      box-shadow:1px 2px 2px rgb(0,0,0,0.333);
+      border:2px solid black;
+      border-radius:30px;
       margin:5px;
       text-align:center;
       font-family:var(--font2);
@@ -101,16 +103,16 @@
       top:37%;
       left:50%;
       transform:translate(-50%, -37%);
-      max-height:400vh;
-      max-width:120vw;
+      max-height:350vh;
+      max-width:90vw;
     }
     #container-cadastro {
       position:absolute;
       top:37%;
       left:50%;
       transform:translate(80%, -37%);
-      max-height:400vh;
-      max-width:120vw; 
+      max-height:350vh;
+      max-width:90vw; 
     } 
     .label {
       font-family:var(--font2);
