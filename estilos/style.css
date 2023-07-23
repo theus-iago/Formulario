@@ -56,9 +56,11 @@
     body {
       background-color:rgb(234,234,234);
       background-image:url('../images/IMG-20230716-WA0000.jpg');
-      backdrop-filter:blur(px);
+      backdrop-filter:blur(10px);
       background-size:cover;
+      background-repeat:no-repeat;
       font-family:var(--fonte1);
+      height:100vh;
     }
     .box {
       border:none;
@@ -68,7 +70,7 @@
       top:30%;
       left:50%;
       transform:translate(-50%, -30%);
-      height:280vh;
+      height:100vh;
       width:84vw;
     }
     .container {
