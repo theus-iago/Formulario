@@ -154,7 +154,6 @@
       top:89%;
       left:15%;
       transform:translate(-15%,-89%);
-      transform:rotate(180deg);
     }
     #btn-login1 {
       margin-top:15px;
