@@ -134,8 +134,7 @@
       width:50px;
       border:none;
       border-radius:16px;
-      font-size:18pt;
-      padding:;
+      font-size:16pt;
       position:absolute;
       top:95%;
       left:80%;
@@ -148,12 +147,11 @@
       width:50px;
       border:none;
       border-radius:16px;
-      font-size:18pt;
-      padding:;
+      font-size:16pt;
       position:absolute;
-      top:89%;
+      top:95%;
       left:15%;
-      transform:translate(-15%,-89%);
+      transform:translate(-15%,-95%);
     }
     #btn-login1 {
       margin-top:15px;
